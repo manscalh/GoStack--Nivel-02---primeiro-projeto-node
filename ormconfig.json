@@ -1,0 +1,23 @@
+[
+  {
+    "name": "postgres",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "docker",
+    "database": "gostack_gobarber"
+  },
+  {
+    "name": "mssql",
+    "type": "mssql",
+    "host": "localhost",
+    "port": 1533,
+    "username": "sa",
+    "password": "sgctuff%1",
+    "database": "gostack_gobarber",
+    "options":{
+      "enableArithAbort": true
+    }
+  }
+]
